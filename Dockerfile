@@ -1,6 +1,6 @@
 FROM centos:7
 
-MAINTAINER Wayfaerer
+MAINTAINER AttractGroup
 
 RUN yum update -y && yum clean all
 RUN yum install -y yum-utils
