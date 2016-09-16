@@ -27,4 +27,4 @@ RUN pip install uwsgi
 RUN yum install -y iproute
 
 # run pip install
-RUN pip install -r /home/docker/code/req.txt
+RUN pip install -r req.txt
